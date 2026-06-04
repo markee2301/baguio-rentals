@@ -90,7 +90,7 @@ export async function Navbar() {
           </div>
         </div>
 
-        <div className="hidden items-center gap-4 md:flex">
+        <div className="hidden items-center gap-3 md:flex">
           <Link href="/about">
             <GradientButton>
               <svg className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
@@ -98,7 +98,7 @@ export async function Navbar() {
                 <path d="M12 16v-4"/>
                 <path d="M12 8h.01"/>
               </svg>
-              About BaguioRentals
+              About
             </GradientButton>
           </Link>
           <AuthButton user={profile} />

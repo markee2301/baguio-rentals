@@ -104,6 +104,13 @@ export default function PrivacyPolicyPage() {
             >
               hello@markanthonynavarro.dev
             </a>
+            . You can also view our{" "}
+            <Link
+              href="/data-deletion"
+              className="font-medium text-pine hover:underline"
+            >
+              data deletion instructions
+            </Link>
             .
           </p>
         </section>
