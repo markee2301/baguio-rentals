@@ -72,6 +72,9 @@ export function Footer() {
             <Link href="/terms" className="rounded-lg px-2 py-2 text-xs text-stone-dark/50 hover:text-amber transition-colors">
               Terms
             </Link>
+            <Link href="/data-deletion" className="rounded-lg px-2 py-2 text-xs text-stone-dark/50 hover:text-amber transition-colors">
+              Data Deletion
+            </Link>
           </div>
           <div className="flex items-center gap-1 text-xs text-stone-dark/50">
             <svg className="h-3 w-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
