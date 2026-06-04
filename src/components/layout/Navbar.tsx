@@ -35,11 +35,13 @@ export async function Navbar() {
       <div className="mx-auto flex h-[72px] max-w-7xl items-center justify-between px-5 sm:px-8 lg:px-10">
         <div className="flex items-center gap-10">
           <Link href="/" className="flex items-center gap-2.5 group">
-            <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-pine text-amber transition-transform group-hover:scale-105">
-              <svg className="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                <path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-6h6v6" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
-            </div>
+            <img
+              src="/images/app-icon.png"
+              alt=""
+              width={36}
+              height={36}
+              className="h-9 w-9 rounded-lg transition-transform group-hover:scale-105"
+            />
             <span className="font-[family-name:var(--font-display)] text-xl text-pine tracking-tight">
               BaguioRentals
             </span>
